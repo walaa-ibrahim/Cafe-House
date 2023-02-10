@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Cafe House</title>
 	<!--Required bootstrap & css files -->
-	<link rel="stylesheet" href="../content/css/abstract/bootstrap.min.css">
-	<link rel="stylesheet" href="../content/css/abstract/all.min.css">
-	<link rel="stylesheet" href="../content/css/style.css">
+	<link rel="stylesheet" href="./content/css/abstract/bootstrap.min.css">
+	<link rel="stylesheet" href="./content/css/abstract/all.min.css">
+	<link rel="stylesheet" href="./content/css/style.css">
 </head>
 <body>
 	<!--Header section-->
@@ -14,10 +14,10 @@
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg">
 			<!--container-->
-			<div class="container justify-content-xxl-around">
+			<div class="container justify-content-xxl-between">
 				<!--Brand-->
 				<a class="navbar-brand" href="index.html">
-					<img src="../content/assets/imgs/logo.png" class="logo-align" alt="logo-img">
+					<img src="./content/assets/imgs/logo.png" class="logo-align" alt="logo-img">
 					<span class="text-capitalize">cafe house</span>
 				</a>
 				<!--navbar-toggler & nav-links-->
@@ -30,10 +30,10 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item text-uppercase">
-								<a class="nav-link" aria-current="page" href="index.html">Home</a>
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
 							</li>
 							<li class="nav-item text-uppercase">
-								<a class="nav-link active" href="todSpecial.html">today special</a>
+								<a class="nav-link" href="todSpecial.html">today special</a>
 							</li>
 							<li class="nav-item text-uppercase">
 								<a class="nav-link" href="menu.html">menu</a>
@@ -52,13 +52,13 @@
 			<div class="container">
 				<!--header-contain__lighter-->
 				<div class="header-contain__lighter">
-					<img src="../content/assets/imgs/light.png" alt="light-img">
-					<img src="../content/assets/imgs/light.png" class="img-fluid" alt="light-img">
-					<img src="../content/assets/imgs/light.png" class="img-fluid" alt="light-img">
+					<img src="./content/assets/imgs/light.png" alt="light-img">
+					<img src="./content/assets/imgs/light.png" class="img-fluid" alt="light-img">
+					<img src="./content/assets/imgs/light.png" class="img-fluid" alt="light-img">
 				</div>
 				<div class="header-contain__header-body text-center">
 					<h2 class="headline header--headline text-capitalize">
-						<img src="../content/assets/imgs/header-line.png" class="img-fluid" alt="main-header-img"> today's special <img src="../content/assets/imgs/header-line.png" class="img-fluid" alt="header-line">
+						<img src="./content/assets/imgs/header-line.png" class="img-fluid" alt="main-header-img"> welcome to <img src="./content/assets/imgs/header-line.png" class="img-fluid" alt="header-line">
 					</h2>
 					<h2 class="text-uppercase header-body__snd-text text-center">cafe house</h2>
 					<p class="pb-5">Cafe House is free responsive <span>Bootstrap v3.3.5</span> layout by <a href="">templatemo.</a> Lorem ipsum dolor sit amet, 
@@ -69,21 +69,45 @@
 					<a class="read-more gold-txt text-uppercase" href="#">read more</a>
 				</div>
 				<div class="header-body__table-set d-flex justify-content-center">
-					<img src="../content/assets/imgs/table-set.png" class="img-fluid" alt="table-set-img">
+					<img src="./content/assets/imgs/table-set.png" class="img-fluid" alt="table-set-img">
 				</div>
 			</div><!--End container-->
 		</div><!--End main-header__header-contain-->
 	</header><!--End Header-->
-	<!--Popular-item section-->
-	<section class="pop-items py-5">
+	<!--Best-coffee section-->
+	<section class="best-coffee pb-2">
 		<!--container-->
-		<div class="container mt-5 pt-5">
-			<h2 class="headline main-line gold-txt mb-3"><img src="../content/assets/imgs/logo.png" class="logo-align pe-2" alt="coffe-img">popular items</h2>
+		<div class="container">
+			<!--Start Row -->
+			<div class="row mt-5">
+				<div class="col-md-8 my-4">
+					<h2 class="headline gold-txt text-capitalize">The Best Coffee for you</h2>
+					<h2 class="sub-title text-capitalize pt-2">cafe house</h2>
+					<p class="pe-md-5 mb-5">This is free HTML5 website template from <span class="blue-txt">template<span class="green-txt">mo</span></span>. Fndimentum rhoncus, sem quam semper libero,
+						sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+						lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
+						Ettiam sit amet orci eget eros faucibus tincidunt.
+					</p>
+					<a class="read-more gold-txt text-uppercase" href="">read more</a> 
+				</div>
+				<div class="col-md-3 my-4">
+					<div class="best-coffee__img-shadow">
+						<img src="./content/assets/imgs/1.jpg" class="rounded-circle" alt="cup-img">
+					</div>
+				</div>
+			</div><!--End Row -->
+		</div><!--End Container-->
+	</section><!--End best-coffee section-->
+	<!--Popular-item section-->
+	<section class="pop-items py-4 ">
+		<!--container-->
+		<div class="container">
+			<h2 class="headline main-line gold-txt mb-5"><img src="./content/assets/imgs/logo.png" class="logo-align pe-2" alt="coffe-img">popular items</h2>
 			<!--Start Row -->
 			<div class="row">
 				<div class="col-lg-4 col-md-6 my-4">
 					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
+						<img src="./content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
 						<div class="pop-items__card__body text-center">
 							<h3><span>a</span>mericano</h3>
 							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
@@ -95,7 +119,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 my-4">
 					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
+						<img src="./content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
 						<div class="pop-items__card__body text-center">
 							<h3><span>c</span>appuccino</h3>
 							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
@@ -107,43 +131,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 my-4">
 					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
-						<div class="pop-items__card__body text-center">
-							<h3><span>m</span>ocha</h3>
-							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
-							<div class="order card--order rounded-circle">
-								<a href="" class="order-link card--link text-capitalize">order now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 my-4">
-					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
-						<div class="pop-items__card__body text-center">
-							<h3><span>a</span>mericano</h3>
-							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
-							<div class="order card--order rounded-circle">
-								<a href="" class="order-link card--link text-capitalize">order now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 my-4">
-					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
-						<div class="pop-items__card__body text-center">
-							<h3><span>c</span>appuccino</h3>
-							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
-							<div class="order card--order rounded-circle">
-								<a href="" class="order-link card--link text-capitalize">order now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 my-4">
-					<div class="pop-items__card text-center my-3">
-						<img src="../content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
+						<img src="./content/assets/imgs/popular-1.jpg" class="img-fluid" alt="popular-item">
 						<div class="pop-items__card__body text-center">
 							<h3><span>m</span>ocha</h3>
 							<p class="px-5">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
@@ -155,16 +143,81 @@
 				</div>
 			</div><!--End Row-->
 		</div><!--End Container-->
-	</section><!--End Popular-item section-->
+	</section><!--End Popular-items section-->
+	<!--Today-special section-->
+	<section class="today-special py-5">
+		<!--container-->
+		<div class="container">
+			<h2 class="headline main-line gold-txt mb-5"><img src="./content/assets/imgs/logo.png" class="logo-align pe-2" alt="coffe-img">Today's Special
+			</h2>
+			<!--Start Row -->
+			<div class="row">
+				<div class="col-md-7 my-2">
+					<div class="today-special__special-item">
+						<div class="special-item__special-contain">
+							<img src="./content/assets/imgs/special-1.jpg" class="img-fluid" alt="special-item-img1">
+							<a href="#">
+								<div class="special-item__special-body">
+									<h3>Donec pede justo</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+								</div><!--special-item__special-body-->
+							</a>
+						</div><!--special-item__special-contain-->
+					</div><!--End today-special__special-item-->
+				</div><!--End col-md-7-->
+				<div class="col-md-5 my-2">
+					<div class="row">
+						<div class="col-12">
+							<div class="today-special__special-item">
+								<div class="special-item__special-contain">
+									<img src="./content/assets/imgs/special-2.jpg" class="img-fluid" alt="special-item-img2">
+									<a href="#">
+										<div class="special-item__special-body">
+											<h3>Etiam sit amet</h3>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+										</div><!--special-item__special-body-->
+									</a>
+								</div><!--special-item__special-contain-->
+							</div><!--End today-special__special-item-->
+						</div><!--End col-12-->
+						<div class="col-6 my-3">
+							<div class="today-special__special-item">
+								<div class="special-item__special-contain">
+									<img src="./content/assets/imgs/special-3.jpg" class="img-fluid" alt="special-item-img3">
+									<a href="#">
+										<div class="special-item__special-body">
+											<p>Vivamus elementum</p>
+										</div><!--special-item__special-body-->
+									</a>
+								</div><!--special-item__special-contain-->
+							</div><!--End today-special__special-item-->
+						</div><!--End col-6-->
+						<div class="col-6 my-3">
+							<div class="today-special__special-item">
+								<div class="special-item__special-contain">
+									<img src="./content/assets/imgs/special-4.jpg" class="img-fluid" alt="special-item-img4">
+									<a href="#">
+										<div class="special-item__special-body">
+											<p>Quisque rutrum.</p>
+										</div><!--special-item__special-body-->
+									</a>
+								</div><!--special-item__special-contain-->
+							</div><!--End today-special__special-item-->
+						</div><!--End col-6-->
+					</div><!--End row-->
+				</div><!--End col-md-5-->
+			</div><!--End Row-->
+		</div><!--End container-->
+	</section><!--End today-special section-->
 	<!--Daily-Menu Section-->
 	<section class="daily-menu">
 		<!--container-->
 		<div class="container">
-			<h2 class="headline main-line gold-txt mb-5"><img src="../content/assets/imgs/logo.png" class="logo-align pe-2" alt="coffe-img">Daily Menu</h2>
+			<h2 class="headline main-line gold-txt mb-5"><img src="./content/assets/imgs/logo.png" class="logo-align pe-2" alt="coffe-img">Daily Menu</h2>
 			<!--Start Row -->
 			<div class="row mb-5">
 				<div class="col-md-4 my-2">
-					<img src="../content/assets/imgs/menu-board.png" class="img-fluid" alt="menu-borad-img">
+					<img src="./content/assets/imgs/menu-board.png" class="img-fluid" alt="menu-borad-img">
 				</div>
 				<div class="col-md-8 my-2">
 					<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
@@ -231,8 +284,8 @@
 		</div><!--End CopyRight-->
 	</footer><!--End Footer section-->
 	<!--Required js files -->
-	<script src="../content/js/abstract/bootstrap.bundle.min.js"></script>
-	<script src="../content/js/abstract/all.min.js"></script>
-	<script src="../content/js/mine.js"></script>	
+	<script src="./content/js/abstract/bootstrap.bundle.min.js"></script>
+	<script src="./content/js/abstract/all.min.js"></script>
+	<script src="./content/js/mine.js"></script>	
 </body>
 </html>
